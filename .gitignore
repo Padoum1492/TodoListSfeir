@@ -1,0 +1,47 @@
+# Dépendances Node.js
+node_modules/
+**/node_modules/
+
+# Angular
+.angular/
+**/.angular/
+dist/
+**/dist/
+
+# Fichiers temporaires
+tmp/
+out-tsc/
+bazel-out/
+
+# Environnements
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-error.log
+*.log
+
+# IDEs
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Couverture de tests
+coverage/
+**/coverage/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
